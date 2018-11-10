@@ -20,7 +20,7 @@ public class WhenSpawningANewGeneration {
         GameController controller = new GameController();
         ModelAndView nextView = controller.nextGeneration(3, 3, request);
 
-        assertThat(nextView.getModel().get("universe"), is(not(nullValue())));
+        assertThat(nextView.getModel().get("universes"), is(not(nullValue())));
     }
 
     @Test
