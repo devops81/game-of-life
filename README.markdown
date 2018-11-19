@@ -3,6 +3,8 @@ This is a simple demonstration application used in the [Jenkins: The Definitive 
 ## Building the project
 ## Checking JENKINS POLLSCM Trigger option
 This is change for checking JENKINS pollscm option 
+## Checking the GITHUB hook trigger for JENKINS
+This is to check github hook trigger for JENKINS
 
 The project is a simple multi-module Maven project. To build the whole project, just run `mvn install` from the root directory.
 
