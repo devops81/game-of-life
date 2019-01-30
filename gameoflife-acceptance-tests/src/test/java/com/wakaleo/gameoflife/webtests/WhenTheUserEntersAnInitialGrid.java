@@ -38,7 +38,7 @@ public class WhenTheUserEntersAnInitialGrid {
     public void userShouldBeAbleChooseToCreateANewGameOnTheHomePage() {
         player.opens_home_page();
         player.chooses_to_start_a_new_game();
-        player.should_see_a_page_containing_text("Please seed your universities");
+        player.should_see_a_page_containing_text("Please seed your");
 
     }
 
@@ -94,6 +94,6 @@ public class WhenTheUserEntersAnInitialGrid {
         player.opens_home_page();
         player.chooses_to_start_a_new_game();
         player.clicks_on_home();
-        player.should_see_a_page_containing_text("Welcome to Conway's Game Of Life");
+        player.should_see_a_page_containing_text("Welcome to  Game Of Life");
     }
 }
