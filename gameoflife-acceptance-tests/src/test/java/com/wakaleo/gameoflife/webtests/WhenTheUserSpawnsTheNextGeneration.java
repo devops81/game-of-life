@@ -29,7 +29,7 @@ public class WhenTheUserSpawnsTheNextGeneration {
 
 
     final static String[][] EMPTY_GRID
-            = new String[][]{{".", ".", "."},
+            = new String[][]{{".", "1", "."},
             {".", ".", "."},
             {".", ".", "."}};
 
