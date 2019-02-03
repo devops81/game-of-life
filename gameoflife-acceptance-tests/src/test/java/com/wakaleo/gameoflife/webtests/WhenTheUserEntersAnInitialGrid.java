@@ -55,7 +55,7 @@ public class WhenTheUserEntersAnInitialGrid {
         player.opens_home_page();
         player.chooses_to_start_a_new_game();
         player.starts_simulation();
-        player.should_see_a_page_containing_text("Next Generation");
+        player.should_see_a_page_containing_text("Next Generation checking");
     }
 
     @Test
@@ -76,7 +76,7 @@ public class WhenTheUserEntersAnInitialGrid {
     public void userShouldBeAbleToEnterLiveCellsInTheGrid() {
         player.opens_home_page();
         player.chooses_to_start_a_new_game();
-        player.clicks_on_cell_at(0, 0);
+        player.clicks_on_cell_at(5, 5);
         player.clicks_on_cell_at(0, 1);
         player.clicks_on_cell_at(1, 1);
         player.starts_simulation();
@@ -94,6 +94,6 @@ public class WhenTheUserEntersAnInitialGrid {
         player.opens_home_page();
         player.chooses_to_start_a_new_game();
         player.clicks_on_home();
-        player.should_see_a_page_containing_text("Welcome to  Game Of Life");
+        player.should_see_a_page_containing_text("Welcome to0  Game Of Life");
     }
 }
