@@ -278,7 +278,7 @@
                 </plugins>
             </build>
         </profile>
-         </profile>
+         
 	    <profile>
 <id>sonar</id>
 <activation>
